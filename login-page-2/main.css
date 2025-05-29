@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    color: #333333;
+    background-color: #ffffff;
+}
+
+#container-login, #container-register {
+    background-color: #ffffff;
+    position: relative;
+    top: 20%;
+    margin: auto;
+    width: 340px;
+    height: 450px;
+    border-radius: 0.35em;
+    box-shadow: 0 4px 12px #0000001a;
+    text-align: center;
+}
+
+#container-register {
+    height: 480px;
+}
+
+#title {
+    position: relative;
+    background-color: #e3f2fd;
+    width: 100%;
+    padding: 20px 0px;
+    border-radius: 0.35em 0.35em 0 0;
+    font-size: 22px;
+    border-bottom: 1px solid #cfd8dc;
+    color: #1976d2;
+}
+
+.lock {
+    position: relative;
+    top: 2px;
+}
+
+.input {
+    margin: auto;
+    width: 240px;
+    border-radius: 4px;
+    background-color: #f4f6f8;
+    padding: 8px 0px;
+    margin-top: 15px;
+}
+
+.input-addon {
+    float: left;
+    background-color: #f4f6f8;
+    border: 1px solid #f4f6f8;
+    padding: 4px 8px;
+    border-right: 1px solid #cfd8dc;
+}
+
+input[type=checkbox] {
+    cursor: pointer;
+}
+
+input[type=text],
+input[type=password],
+input[type=email] {
+    color: #333333;
+    margin: 0;
+    background-color: #f4f6f8;
+    border: 1px solid #f4f6f8;
+    padding: 6px 0px;
+    border-radius: 3px;
+}
+
+input[type=text]:focus,
+input[type=password]:focus,
+input[type=email]:focus {
+    border: 1px solid #1976d2;
+}
+
+.forgot-password a:link,
+.forgot-password a:visited {
+    color: #1976d2;
+    text-decoration: none;
+}
+
+.forgot-password a:hover {
+    color: #0d47a1;
+    transition: color 0.3s;
+}
+
+.privacy {
+    margin-top: 5px;
+    position: relative;
+    font-size: 12px;
+    bottom: 0%;
+}
+
+.privacy a:link,
+.privacy a:visited {
+    color: #555555;
+    text-decoration: none;
+}
+
+.privacy a:hover {
+    color: #1976d2;
+    transition: color 0.3s;
+}
+
+*:focus {
+    outline: none;
+}
+
+.remember-me {
+    margin: 10px 0;
+}
+
+input[type=submit],
+#register-link {
+    padding: 6px 25px;
+    background: #1976d2;
+    color: #ffffff;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    transition: background 0.3s;
+}
+
+input[type=submit]:hover,
+#register-link:hover {
+    background: #1565c0;
+}
+
+.register {
+    margin: auto;
+    padding: 16px 0;
+    text-align: center;
+    margin-top: 40px;
+    width: 85%;
+    border-top: 1px solid #ffffff;
+}
+
+.clearfix {
+    clear: both;
+}
